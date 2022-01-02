@@ -1,10 +1,12 @@
 ## Custom Lenses for the AWS Well-Architected Tool
 
 - What is AWS Well-Architected?
+  
   - The AWS Well-Architected Framework describes key concepts, design principles, and architectural best practices for designing and running workloads in the cloud. 
+  
   - AWS Well-Architected helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for a variety of applications and workloads. 
+  
   - Built around six pillars
-      
       - Operational excellence, 
       - Security, 
       - Reliability, 
@@ -15,6 +17,7 @@
   - AWS Well-Architected provides a consistent approach for customers and partners to evaluate architectures and implement scalable designs.
 
 - What is AWS Well-Architected tool?
+  
   - The AWS WA Tool is designed to help you review the state of your applications and workloads, and provide a central place for architectural best practices and guidance. 
   
   - The AWS WA Tool is based on the AWS Well- Architected Framework, which was developed to help cloud architects build secure, high-performing, resilient, and efficient application infrastructures. 
