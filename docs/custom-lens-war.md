@@ -64,7 +64,7 @@
 
         <img src="images/custom-lense-war/image4.png" class="inline" width="700" height="175"/>
        
-        <img src="images/custom-lense-war/image5.png" class="inline" width="700" height="175"/>
+        <img src="images/custom-lense-war/image5.png" class="inline" width="700" height="200"/>
      
      - Click Submit, after submitting lens, it is in the draft which needs to be published so we can apply it to our workload
        
