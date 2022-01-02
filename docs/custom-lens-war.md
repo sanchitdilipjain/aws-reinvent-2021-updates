@@ -20,7 +20,7 @@
   - AWS solutions architects have used the Framework in tens of thousands of workload reviews. It provides a consistent approach for evaluating your cloud architecture and implementing designs that will scale with your application needs over time.
   - You can review workloads against best practices across the architectural pillars of operational excellence, security, reliability, performance efficiency, and cost optimization.
   - The AWS WA Tool delivers a list of issues found in your workloads and step-by-step guidance to improve.
-  - You can also view the issues found across the portfolio of workloads. We recommend performing a workload review at significant milestones in your development cycle.
+  - You can also view the issues found across the portfolio of workloads. AWS recommend performing a workload review at significant milestones in your development cycle.
  
       <img src="images/custom-lense-war/image1.png" class="inline" width="700" height="300"/>
 
@@ -40,7 +40,7 @@
   - Publishing a custom lens for the first time: Publish so that it can be applied to workloads or shared with other AWS accounts or IAM users.
   - Publishing an update to a custom lens: You can modify existing published custom lenses
   - Sharing a custom lens: You can share custom lenses with up to 300 AWS accounts or IAM users.
-  - Deleting a custom lens:  
+  - Deleting a custom lens:  You can delete the custom lenses that you have defined.
   - Lens format specification: Lenses are defined using a specific JSON format. And it defines the structure for the pillars, questions, best practices, and improvement plan
  
 **Tutorial**
@@ -88,7 +88,7 @@
        
         <img src="images/custom-lense-war/image10.png" class="inline" width="700" height="125"/>
        
-    -  Provide Account-Id under IAM Principals. Click Create, once they click the invitation, a lens will be available with the shared account
+    -  Provide Account-Id under IAM Principals. Click Create, once they accept the invitation, a lens will be available with the shared account
        
         <img src="images/custom-lense-war/image11.png" class="inline" width="700" height="250"/>
    
