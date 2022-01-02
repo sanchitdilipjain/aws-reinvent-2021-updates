@@ -1,6 +1,6 @@
 {
    "schemaVersion":"2021-11-01",
-   "name":"Replace with lens name",
+   "name":"Sample Custom lens",
    "description":"Sample Custom lens for the demo",
    "pillars":[
       {
