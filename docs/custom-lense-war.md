@@ -1,7 +1,7 @@
 ## Custom Lenses for the AWS Well-Architected Tool
 
 - What is AWS Well-Architected?
-  
+
   - The AWS Well-Architected Framework describes key concepts, design principles, and architectural best practices for designing and running workloads in the cloud. 
   
   - AWS Well-Architected helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for a variety of applications and workloads. 
@@ -32,11 +32,13 @@
   - You can also view the issues found across the portfolio of workloads. We recommend performing a workload review at major milestones in your development cycle.
 
 - What is Custom Lenses for the AWS Well-Architected Tool?
+  
   - In addition to the standard guidance provided by the AWS WA Framework and AWS developed lenses, the AWS WA Tool allows now you to add specific best practice guidance using custom lenses. 
   
   - By developing your own questions and evaluating your workloads using your organization’s best practices, you can perform reviews based on technology or governance requirements specific to your industry.
   
 - Benefits of leveraging AWS Well-Architected Tool
+  
   - Access knowledge and best practices used by AWS solutions architects whenever you need it. Answer questions about your application or workload, and the AWS WA Tool delivers an action plan with step-by-step guidance on areas for improvement.
   
   - The AWS WA Tool provides a single tool and consistent process to review and measure your cloud architectures. The tool allows you to monitor the status of multiple workloads across your organization and helps you understand potential risks. With the action plan, you can identify next steps for improvement, drive architectural decisions, and build for the cloud with confidence.
