@@ -7,6 +7,7 @@
   - AWS Well-Architected helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for a variety of applications and workloads. 
   
   - Built around six pillars
+      
       - Operational excellence, 
       - Security, 
       - Reliability, 
