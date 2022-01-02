@@ -102,4 +102,4 @@
    
     - Provide the confirmation, and click Delete    
        
-        <img src="images/custom-lense-war/image13.png" class="inline" width="700" height="275"/>
+        <img src="images/custom-lense-war/image13.png" class="inline" width="500" height="200"/>
