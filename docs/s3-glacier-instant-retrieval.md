@@ -38,5 +38,5 @@
 
 **Performance across the S3 Storage Classes**
   
-    <img src="images/s3-glacier-instant/image2.png" class="inline" width="800" height="425"/>
+  <img src="images/s3-glacier-instant/image2.png" class="inline" width="800" height="425"/>
 
