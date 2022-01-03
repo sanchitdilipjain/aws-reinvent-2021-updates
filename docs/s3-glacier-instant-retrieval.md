@@ -36,7 +36,7 @@
   - **Healthcare information archiving**. Hospital systems need to retain petabytes of patient records (such as LIS, PACS, and EHR) for decades to meet regulatory requirements. The S3 Glacier Instant Retrieval storage class is ideal for medical images or genomics, where milliseconds retrieval is required.
   - **Scientific data analytics**. Research organizations generate, analyze, and archive vast amounts of data, such as for genomics or to train machine learning (ML) models. With the S3 Glacier Instant Retrieval storage class, you avoid the complexities of hardware and facility management and capacity planning, with the lowest-cost storage and milliseconds retrieval.
 
-- **Performance across the S3 Storage Classes**
+**Performance across the S3 Storage Classes**
   
     <img src="images/s3-glacier-instant/image2.png" class="inline" width="800" height="425"/>
 
