@@ -20,7 +20,10 @@
   - Act on new data in S3 faster, make changes to event-driven applications without interruptions, and debug by replaying past events.
   - Use the largest set of destinations on the internet with API destinations.
   
-    <img src="images/s3-glacier-instant/image1.png" class="inline" width="700" height="250"/>
+      <img src="images/s3-eventbridge/image1.png" class="inline" width="700" height="250"/>
 
 **Tutorial**
+- This tutorial walks you through creating an Amazon S3 Event Notifications with Amazon EventBridge.
+
+
  
