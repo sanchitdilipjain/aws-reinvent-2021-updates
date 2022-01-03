@@ -8,16 +8,8 @@
 **What are different storage class?**
 - Amazon S3 offers a range of storage classes that you can choose from based on the data access, resiliency, and cost requirements of your workloads. 
 - S3 storage classes are purpose-built to provide the lowest cost storage for different access patterns
-  - **Amazon S3 Standard (S3 Standard)**: ion, mobile and gaming applications, and big data analytics
-  - **Amazon S3 Intelligent-Tiering (S3 Intelligent-Tiering)**: 
-  - **Amazon S3 Standard-Infrequent Access (S3 Standard-IA)**: 
-  - **Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)**: 
-  - **Amazon S3 Glacier Instant Retrieval storage class**: 
-  - **Amazon S3 Glacier Flexible Retrieval (Formerly S3 Glacier) storage class**: 
-  - **Amazon S3 Glacier Deep Archive (S3 Glacier Deep Archive)**: 
-  - **S3 on Outposts**:
 
-  <img src="images/s3-glacier-instant/image1.png" class="inline" width="700" height="300"/>
+  <img src="images/s3-glacier-instant/image1.png" class="inline" width="700" height="500"/>
 
 **Introduction to Amazon Simple Storage Service (S3) Glacier Instant Retrieval**
 
@@ -43,3 +35,8 @@
   time. Much of this data needs to be available immediately for breaking news events, video rendering, or content development. The S3 Glacier Instant Retrieval storage class allows you to archive older media content affordably while still making it available in milliseconds when it's needed. To save even more on storage costs for media archives that don't require milliseconds access, you can use S3 Glacier Flexible Retrieval (formerly S3 Glacier) or S3 Glacier Deep Archive.
   - **Healthcare information archiving**. Hospital systems need to retain petabytes of patient records (such as LIS, PACS, and EHR) for decades to meet regulatory requirements. The S3 Glacier Instant Retrieval storage class is ideal for medical images or genomics, where milliseconds retrieval is required.
   - **Scientific data analytics**. Research organizations generate, analyze, and archive vast amounts of data, such as for genomics or to train machine learning (ML) models. With the S3 Glacier Instant Retrieval storage class, you avoid the complexities of hardware and facility management and capacity planning, with the lowest-cost storage and milliseconds retrieval.
+
+- **Performance across the S3 Storage Classes**
+  
+    <img src="images/s3-glacier-instant/image2.png" class="inline" width="800" height="425"/>
+
