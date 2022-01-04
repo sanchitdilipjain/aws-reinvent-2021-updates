@@ -25,5 +25,72 @@
 **Tutorial**
 - This tutorial walks you through creating an Amazon S3 Event Notifications with Amazon EventBridge.
 
+ - Step 1: Setup S3 bucket and enable Amazon EventBridge
+ 
+     - Traverse to the <a href="https://console.aws.amazon.com/s3/">Amazon S3 console</a>
+     
+        <img src="images/s3-eventbridge/image2.png" class="inline" width="700" height="200"/>
+       
+     - Click on create Create bucket on the right side of the screen
+     
+        <img src="images/s3-eventbridge/image3.png" class="inline" width="700" height="50"/>
+     
+     - Provide bucket-name (should be globally unqiue), and leave rest of the option as default. Click Create bucket at the bottom of the page
+
+        <img src="images/s3-eventbridge/image4.png" class="inline" width="700" height="250"/>
+            
+     - Click on the new bucket created, select Properties and enable Amazon EventBridge under Event notifications section
+       
+        <img src="images/s3-eventbridge/image6.png" class="inline" width="700" height="275"/>
+ 
+ - Step 2: Configuring Amazon SNS
+   
+     - Traverse to the <a href="https://console.aws.amazon.com/events/">Amazon SNS console</a>
+     
+        <img src="images/s3-eventbridge/image7.png" class="inline" width="700" height="175"/>
+     
+     - Select Topic from left navigation bar, Click Create topic
+     
+        <img src="images/s3-eventbridge/image8.png" class="inline" width="700" height="200"/>
+     
+     -  Select Standard as Topic Type, Provide Topic Name, leave rest as default. Click Create topic at the bottom of the page
+        
+        <img src="images/s3-eventbridge/image9.png" class="inline" width="700" height="225"/>
+        
+        <img src="images/s3-eventbridge/image10.png" class="inline" width="700" height="35"/>
+
+- Step 3: Configuring Amazon EventBridge
+   
+     - Traverse to the <a href="https://console.aws.amazon.com/events/">Amazon EventBridge console</a>
+     
+        <img src="images/s3-eventbridge/image11.png" class="inline" width="700" height="175"/>
+     
+     - Click Create rule
+     
+        <img src="images/s3-eventbridge/image12.png" class="inline" width="700" height="175"/>
+     
+     - While creating rule we need to provide a couple of details
+     
+        - Provide Name and description for the rule 
+        
+          <img src="images/s3-eventbridge/image13.png" class="inline" width="700" height="200"/>
+          
+        - Under define pattern, select Event pattern, then select Pre-defined pattern by service under Event matching pattern. Now select AWS as Service Provider, Simple Storage Service (S3) as Service name, All Events as Event Type
+        
+          <img src="images/s3-eventbridge/image14.png" class="inline" width="700" height="500"/>
+        
+        - Leave Select event bus as default option
+        
+        - Under Target, select SNS Topic, and select the topic we defined under Step 2 from the topic drop down 
+          
+          <img src="images/s3-eventbridge/image15.png" class="inline" width="700" height="150"/>
+        
+        - Click Create at the bottom of the page
+        
+          <img src="images/s3-eventbridge/image16.png" class="inline" width="700" height="125"/>
+ 
+
+
+ 
 
  
