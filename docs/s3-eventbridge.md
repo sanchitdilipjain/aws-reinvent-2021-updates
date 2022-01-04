@@ -108,3 +108,15 @@
           <img src="images/s3-eventbridge/image16.png" class="inline" width="700" height="150"/>
 
 - Step 4: Test the setup
+
+  -  Traverse to the <a href="https://console.aws.amazon.com/s3/">Amazon S3 console</a>
+     
+     <img src="images/s3-eventbridge/image2.png" class="inline" width="700" height="200"/>
+  
+  -  Click on the new bucket created, and upload a file
+
+     <img src="images/s3-eventbridge/image23.png" class="inline" width="700" height="150"/>
+  
+  -  As the upload completes, you will receive a SNS notification on the subscribed email
+
+     <img src="images/s3-eventbridge/image24.png" class="inline" width="700" height="250"/>
