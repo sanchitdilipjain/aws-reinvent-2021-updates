@@ -57,7 +57,25 @@
         
         <img src="images/s3-eventbridge/image9.png" class="inline" width="700" height="225"/>
         
-        <img src="images/s3-eventbridge/image10.png" class="inline" width="700" height="35"/>
+     -  Next let's register subscription under the SNS topic created above, Select Create Subscription
+
+        <img src="images/s3-eventbridge/image17.png" class="inline" width="700" height="150"/>
+     
+     -  Select Email as an option from Protocol drop-down list and provide your email address
+
+        <img src="images/s3-eventbridge/image18.png" class="inline" width="700" height="225"/>
+        
+     -  Leave rest as default, scroll down and click Create Subscription
+
+        <img src="images/s3-eventbridge/image19.png" class="inline" width="700" height="150"/>   
+     
+     -  Post that confirms your subscription via subscription email you would have received on the email-id provided above
+        
+        <img src="images/s3-eventbridge/image20.png" class="inline" width="700" height="150"/> 
+        
+        <img src="images/s3-eventbridge/image21.png" class="inline" width="500" height="150"/> 
+        
+        <img src="images/s3-eventbridge/image22.png" class="inline" width="700" height="150"/> 
 
 - Step 3: Configuring Amazon EventBridge
    
@@ -87,10 +105,6 @@
         
         - Click Create at the bottom of the page
         
-          <img src="images/s3-eventbridge/image16.png" class="inline" width="700" height="125"/>
- 
+          <img src="images/s3-eventbridge/image16.png" class="inline" width="700" height="150"/>
 
-
- 
-
- 
+- Step 4: Test the setup
