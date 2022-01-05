@@ -3,7 +3,7 @@
 **What is Amazon Simple Storage Service (S3)?**
 - Amazon S3 is one of the main building blocks of AWS. It's advertised as" infinitely scaling" storage. It's widely popular and deserves its section
 - S3 provides unlimited storage space and works on the pay-as-you-use model. Service rates get cheaper as the usage volume increases
-- Amazon S3 allows people to store objects (files) in "buckets" (directories). S3 resources e.g., buckets and objects are private by default
+- Amazon S3 allows people to store objects (files) in "buckets" (directories). S3 resources, e.g., buckets and objects, are private by default
 
 **What are different storage classes?**
 - Amazon S3 offers a range of storage classes that you can choose from based on your workloads' data access, resiliency, and cost requirements.
