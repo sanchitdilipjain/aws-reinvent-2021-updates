@@ -6,7 +6,7 @@
 - Amazon S3 allows people to store objects (files) in "buckets" (directories). S3 resources, e.g., buckets and objects, are private by default
 
 **What are different storage classes?**
-Amazon S3 offers a range of storage classes that you can choose from based on your workloads' data access, resiliency, and cost requirements.
+- Amazon S3 offers a range of storage classes that you can choose from based on your workloads' data access, resiliency, and cost requirements.
 - S3 storage classes are purpose-built to provide the lowest cost storage for different access patterns
 
   <img src="images/s3-glacier-instant/image1.png" class="inline" width="700" height="500"/>
