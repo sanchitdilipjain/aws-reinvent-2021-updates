@@ -1,3 +1,10 @@
+---
+layout: post
+title: Amazon S3 Event Notifications with Amazon EventBridge
+date: YYYY-MM-DD HH:MM:SS
+---
+
+
 ## Amazon S3 Event Notifications with Amazon EventBridge
 
 **What is Amazon Simple Storage Service (S3)?**
