@@ -1,3 +1,9 @@
+---
+layout: default
+date: 2022-01-02
+title: Custom Lenses for the AWS Well-Architected Tool
+---
+
 ## Custom Lenses for the AWS Well-Architected Tool
 
 **What is AWS Well-Architected?**
