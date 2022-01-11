@@ -28,10 +28,8 @@
       {{ content }}
 
       <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-credits">{{ page.title }} is published by Sanchit Dilip Jain.</span>
-        {% endif %}
-         <span class="site-footer-credits">Published on: {{ page.date | date: "%Y-%m-%d" }}</span><br/>
+        <span class="site-footer-credits">{{ page.title }} is published by Sanchit Dilip Jain.</span><br/>
+        <span class="site-footer-credits">Published on: {{ page.date | date: "%Y-%m-%d" }}</span><br/>
       </footer>
     </main>
   </body>
