@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2022-01-09
-title: Amazon S3 Intelligent-Tiering: Archive Instant Access tier
+title: Amazon S3 Intelligent-Tiering Archive Instant Access tier
 ---
 
 ## Amazon S3 Intelligent-Tiering: Archive Instant Access tier
