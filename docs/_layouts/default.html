@@ -17,8 +17,6 @@
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-name">{{ default: site.github.owner_name }}</h2>
-      <h3 class="project-name">{{ default: page.date }}</h3>
       
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
@@ -31,7 +29,7 @@
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
-          <span class="site-footer-owner">{{ page.title }} is published by {{ site.github.owner_name }}.</span>
+          <span class="site-footer-credits">{{ page.title }} is published by {{ site.github.owner_name }}.</span>
         {% endif %}
          <span class="site-footer-credits">Published on: {{ page.date | date: "%Y-%m-%d" }}</span><br/>
       </footer>
