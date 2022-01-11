@@ -1,3 +1,9 @@
+---
+layout: default
+date: 2022-01-07
+title: Amazon S3 Event Notifications with Amazon EventBridge
+---
+
 ## Amazon S3 Event Notifications with Amazon EventBridge
 
 **What is Amazon Simple Storage Service (S3)?**
