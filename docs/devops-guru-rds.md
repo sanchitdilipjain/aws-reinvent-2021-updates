@@ -72,8 +72,8 @@ title: Amazon DevOps Guru for RDS
 
     - Please note that you pay per resource when using DevOps Guru
 
-      <img src="images/devops-guru-rds/image8.png" class="inline" width="700" height="275"/>
+      <img src="images/devops-guru-rds/image8.png" class="inline" width="500" height="200"/>
 
     - That's all. Now you should wait until AWS DevOps guru completes the analysis:
 
-      <img src="images/devops-guru-rds/image9.png" class="inline" width="700" height="50"/>
+      <img src="images/devops-guru-rds/image9.png" class="inline" width="500" height="35"/>
