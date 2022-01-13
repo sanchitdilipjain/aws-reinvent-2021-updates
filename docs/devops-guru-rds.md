@@ -4,8 +4,6 @@ date: 2022-01-09
 title: Amazon DevOps Guru for RDS
 ---
 
-Amazon DevOps Guru for RDS, powered by machine learning (ML) and available for all Amazon Relational Database Service (RDS) engines, helps make it easy to improve an application’s operational performance and availability
-
 **What is DevOps Guru for RDS?**
   - DevOps Guru for RDS is a new ML-powered capability empowering developers and DevOps engineers to quickly detect, diagnose, and remediate a wide variety of database-related issues on Amazon RDS. 
   - When DevOps Guru for RDS detects a database-related issue (such as resource overutilization, or misbehavior of certain SQL queries), the service immediately notifies you and provides diagnostic information, details on the extent of the problem, and intelligent recommendations to quickly resolve the issue. 
