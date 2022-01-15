@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2022-01-14
+date: 2022-01-15
 title: Amazon EMR Serverless
 ---
 
