@@ -11,11 +11,11 @@ title: Amazon EMR Serverless
  - Understanding clusters and nodes
   - A cluster is a collection of Amazon Elastic Compute Cloud (Amazon EC2) instances. Each instance in the cluster is called a node. Each node has a role within the cluster, referred to as the node type. Amazon EMR also installs different software components on each node type, giving each node a role in a distributed application like Apache Hadoop.
   - The node types in Amazon EMR are as follows:
-   - **Master node:** A node that manages the cluster by running software components to coordinate the distribution of data and tasks among other nodes for processing. The master node tracks the status of tasks and monitors the cluster's health. Every cluster has a master node, and it's possible to create a single-node cluster with only the master node.
-   - **Core node:** A node with software components that run tasks and store data in your cluster's Hadoop Distributed File System (HDFS). Multi-node clusters have at least one core node.
-   - **Task node:** A node with software components that only runs tasks and does not store data in HDFS. Task nodes are optional
+    - **Master node:** A node that manages the cluster by running software components to coordinate the distribution of data and tasks among other nodes for processing. The master node tracks the status of tasks and monitors the cluster's health. Every cluster has a master node, and it's possible to create a single-node cluster with only the master node.
+    - **Core node:** A node with software components that run tasks and store data in your cluster's Hadoop Distributed File System (HDFS). Multi-node clusters have at least one core node.
+    - **Task node:** A node with software components that only runs tasks and does not store data in HDFS. Task nodes are optional
 
-        <img src="images/emr-serverless/image1.png" class="inline" width="700" height="275"/>
+         <img src="images/emr-serverless/image1.png" class="inline" width="700" height="275"/>
 
 **What is Amazon EMR Serverless?**
  - Amazon EMR Serverless is a serverless option on Amazon EMR that makes it easy for data analysts and engineers to run open-source big data analytics frameworks without configuring, managing, and scaling clusters or servers. You get all the features and benefits of Amazon EMR without the need for experts to plan and manage clusters.
