@@ -15,7 +15,7 @@ title: Amazon EMR Serverless
    - **Core node:** A node with software components that run tasks and store data in your cluster's Hadoop Distributed File System (HDFS). Multi-node clusters have at least one core node.
    - **Task node:** A node with software components that only runs tasks and does not store data in HDFS. Task nodes are optional
 
-        <img src="images/emr-serverless/image1.png" class="inline" width="700" height="300"/>
+        <img src="images/emr-serverless/image1.png" class="inline" width="700" height="275"/>
 
 **What is Amazon EMR Serverless?**
  - Amazon EMR Serverless is a serverless option on Amazon EMR that makes it easy for data analysts and engineers to run open-source big data analytics frameworks without configuring, managing, and scaling clusters or servers. You get all the features and benefits of Amazon EMR without the need for experts to plan and manage clusters.
@@ -32,7 +32,7 @@ title: Amazon EMR Serverless
  - When data sizes change over time, they have to resize clusters or use features like Amazon EMR managed to scale that automatically resize clusters
  - EMR Serverless provides a more straightforward solution by eliminating the need for you to handle these scenarios. We don't have to worry about instance selection, cluster sizes, cluster startup, cluster resize, stopping nodes, Availability Zone failover, or OS updates.
   
-      <img src="images/emr-serverless/image2.png" class="inline" width="700" height="400"/>
+      <img src="images/emr-serverless/image2.png" class="inline" width="600" height="450"/>
 
 **How to achieve Data protection on Amazon EMR Serverless?**
  - The AWS shared responsibility model applies to data protection in Amazon EMR Serverless. Data protection is achieved in the following ways
